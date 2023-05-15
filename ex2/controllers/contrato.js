@@ -35,6 +35,17 @@ module.exports.getContratoByInst = inst => {
 }
 
 
+module.exports.getContratoByInstNIPC = inst => {
+    return Contrato.find({NIPCInstituicao:inst},{})
+        .then(contrato => {
+            return contrato
+        })
+        .catch(erro => {
+            return erro
+        })
+}
+
+
 module.exports.courses = () => {
 return Contrato
     .distinct("Curso")

@@ -68,7 +68,7 @@ router.get('/:id', function(req, res) {
 
 router.get('/inst/:nipc', function(req, res) {
   var data = new Date().toISOString().substring(0, 16)
-  Contrato.getContratoByInst(req.params.nipc)
+  Contrato.getContratoByInstNIPC(req.params.nipc)
   .then(dados => {
     res.render('instituicaoContratos', {slist: dados, d: data });
   })
