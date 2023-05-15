@@ -14,4 +14,4 @@ Após importar o ficheiro, reparei que alguns campos como o campo ProvasAptidao 
 
 1.3-> De modo a executar o exercício basta mudar para a diretoria ex1 e executar o comando npm start.
 
-2-> De modo a executar o exercício basta mudar para a diretoria ex1 e executar o comando npm start. Após executar o comando, o serviço fica disponível e pode ser acedido a partir de um browser. Neste exercício as rotas da API de dados ainda funcionam, no entanto não adicionei interfaces, apenas adicionei as pedidas.
+2-> De modo a executar o exercício basta mudar para a diretoria ex2 e executar o comando npm start. Após executar o comando, o serviço fica disponível e pode ser acedido a partir de um browser. Neste exercício as rotas da API de dados ainda funcionam, no entanto não adicionei interfaces, apenas adicionei as pedidas.
